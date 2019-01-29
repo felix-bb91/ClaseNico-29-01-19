@@ -21,9 +21,9 @@
 
 
 
-
+    
 <body>
-    <h1>Clase Nico 29/01/19</h1>
+    <h1 class="mainTitle">Clase Nico 29/01/19</h1>
 
     <form action="" method="post" id="formulario">
     <div>
@@ -34,43 +34,41 @@
         <label for="mail">E-mail:</label>
         <input type="email" id="mail" name="user_mail">
     </div>
-        <div>
+    <div>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password">
     </div>
-        <div>
+    <div>
         <label for="cars">Automovil:</label>
         <select name="cars" id="company">
-    <option value="volvo">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="fiat">Fiat</option>
-    <option value="audi">Audi</option>
-    </select>
-        </div>
-        <div class="radio">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+    <div class="radio">
         <label for="cantidad">Cantidad de autos:</label>
         <input type="radio" name="cantidad" value="1" checked>1
-    <input type="radio" name="cantidad" value="2">2
-    <input type="radio" name="cantidad" value="3">3
-    <input type="radio" name="cantidad" value="4">4
-    <input type="radio" name="cantidad" value="5">5
-    <input type="radio" name="cantidad" value="6">6
-    <input type="radio" name="cantidad" value="7">7
-    
-        </div>
+        <input type="radio" name="cantidad" value="2">2
+        <input type="radio" name="cantidad" value="3">3
+        <input type="radio" name="cantidad" value="4">4
+        <input type="radio" name="cantidad" value="5">5
+        <input type="radio" name="cantidad" value="6">6
+        <input type="radio" name="cantidad" value="7">7
+    </div>
     <div>
         <label for="msg">Message:</label>
         <textarea id="msg" name="user_message"></textarea>
     </div>
-        <div><input type="submit" value="Submit"></div>
-        <div><input type="reset"></div>
+    <div><input type="submit" value="Submit"></div>
+    <div><input type="reset"></div>
     </form>
     
 
 
 
     <button id="fetch">Buscar respuestas</button>
-    
     
     <div id="responsesContainer"></div>
     
